@@ -49,7 +49,7 @@ void main() {
                   Rtext(
                     "Uladluch",
                     color: Color.fromRGBO(192, 183, 183, 0.671),
-                    size: 25,
+                    size: 26,
                   ),
                 ],
               ),
@@ -65,6 +65,7 @@ void main() {
         GetPage(name: '/composer', page: () => Composer()),
         GetPage(name: '/profile_logout', page: () => profile_logout()),
         GetPage(name: '/player', page: () => player()),
+       
       ],
     ),
   );
